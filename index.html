@@ -16,32 +16,112 @@
     <header>
       <h1>Mijn Portfolio</h1>
     </header>
-    <main>
+    <aside>
       <h2>Anita Zwicky</h2>
-      <img src="/blonde.jpg" alt="blond woman" />
-
-      <section>
-        <h2>Gegevens</h2>
+      <img src="blonde.jpg" alt="blond woman" />
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+          nesciunt eveniet dolores iure similique, odio reiciendis quasi unde
+          natus a assumenda maiores maxime repellat explicabo eum amet
+          perferendis, commodi ab?
+        </p>
+      </div>
+      <div>
+        <h2>my address</h2>
         <address>
           Haarlemmerweg 157-3<br />
           1051 KZ Amsterdam
         </address>
+      </div>
+      <div>
+        <i class="fab fa-linkedin fa-2x"></i>
+        <a href="https://www.linkedin.com/in/anitazwicky/">Click for LinkedIn</a
+        ><br />
+        <i class="fab fa-instagram fa-2x"></i>
+      </div>
+    </aside>
+    <main>
+      <section>
+        <h2>my educational and professional background</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum quas
+          enim blanditiis in necessitatibus molestias culpa laudantium illum,
+          impedit error tempore omnis exercitationem quam atque ratione
+          repellendus eligendi, aperiam voluptate!
+        </p>
       </section>
-      <table>
-        <tr>
-          <td><i class="fab fa-twitter fa-2x"></i></td>
-          <td>
-            <a>
-              href ="https://www.linkedin.com/in/anitazwicky/"
-              target="_blank">click for LinkedIn</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td><i class="fab fa-instagram fa-2x"></i></td>
-          <td>Insta account</td>
-        </tr>
-      </table>
+      <section>
+        <h2>more about myself</h2>
+        <p>I have a little boy</p>
+        <img src="IMG_0478.jpg" alt="little boy" />
+      </section>
+      <section>
+        <p>I play the cello</p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/fvDjxXXq2YI"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <p>and wish I could play like her .... :)</p>
+      </section>
+      <section>
+        <h2>projects I like to build</h2>
+        <ul>
+          <li>a website for the VVE</li>
+          <li>my own portfolio</li>
+          <li>make a wish?</li>
+        </ul>
+      </section>
+      <section>
+        <h2>my frontend skills</h2>
+        <table>
+          <thead>
+            <th>Skill</th>
+            <th>Grade</th>
+          </thead>
+          <tr>
+            <td>HTML</td>
+            <td>beginner 1</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>beginner 0</td>
+          </tr>
+          <tr>
+            <td>Java Script</td>
+            <td>beginner 0</td>
+          </tr>
+        </table>
+      </section>
     </main>
+    <footer>
+      <form action="proces.php">
+        <div>
+          <label for="name">name</label><br />
+          <input type="text" id="name" name="name" />
+        </div>
+        <div>
+          <label for="email">e-mail</label><br />
+          <input type="email" name="emil" id="email" />
+        </div>
+        <div>
+          <label for="search">you found my website via</label><br />
+          <select name="search" id="search">
+            <option value="search">Google</option>
+            <option value="search">LinkedIn</option>
+            <option value="search">other</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">your feedback on my website</label><br />
+          <textarea name="message" id="message" cols="50" rows="10"></textarea>
+        </div>
+        <input type="submit" name="Submit" />
+      </form>
+    </footer>
   </body>
 </html>
