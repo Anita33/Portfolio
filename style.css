@@ -1,0 +1,25 @@
+body {
+  background-color: #e2fcef;
+  color: #36393b;
+  font-size: 15px;
+  font-family: Roboto;
+}
+h1 {
+  font-family: Oxygen;
+  color: #8ac6d0;
+  font-weight: bold;
+  font-size: 40px;
+}
+h2 {
+  font-family: Roboto;
+  color: #63768d;
+  font-weight: lighter;
+  font-size: 20px;
+}
+img {
+  size: 20px 30px;
+}
+
+img {
+  size: 20px 30px;
+}
