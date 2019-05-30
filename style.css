@@ -1,8 +1,13 @@
+<style>
 body {
   background-color: #e2fcef;
   color: #36393b;
   font-size: 15px;
   font-family: Roboto;
+}
+.injected-text {
+  margin-bottom: -25px;
+  text-align: center;
 }
 h1 {
   font-family: Oxygen;
@@ -16,10 +21,21 @@ h2 {
   font-weight: lighter;
   font-size: 20px;
 }
-<img src="Apo.png" alt="cello band" / > img {
-  size: 20px 30px;
+body {
+  width: 500px;
+  margin: 0 auto;
 }
-
-img {
-  size: 20px 30px;
+.thick-green-border {
+  border-color: green;
+  border-width: 10px;
+  border-style: solid;
 }
+.Varian{
+  width: 500px;
+  height: 200px;
+}
+.injected-text {
+  margin-bottom: -25px;
+  text-align: center;
+}
+</style>
