@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 header,
 section,
 aside,
@@ -19,16 +18,16 @@ header {
 }
 
 main {
-  background:rgb(104, 7, 39);
+  background: rgb(104, 7, 39);
   float: right;
-  width: 60%;
+  width: 59%;
   margin: 0;
   padding: 20px;
 }
 
 aside {
   background: pink;
-  width: 28%;
+  width: 40%;
   float: left;
   overflow: auto;
   margin: 0;
@@ -55,6 +54,7 @@ h1 {
   color: #8ac6d0;
   font-weight: bold;
   font-size: 40px;
+  position: right;
 }
 h2 {
   font-family: Roboto;
@@ -62,10 +62,7 @@ h2 {
   font-weight: lighter;
   font-size: 20px;
 }
-body {
-  width: 500px;
-  margin: 0 auto;
-}
+
 .thick-green-border {
   border-color: green;
   border-width: 10px;
@@ -73,10 +70,15 @@ body {
 }
 .Varian-picture {
   width: 500px;
-  height: 200px;
+  height: auto;
 }
-.injected-text {
-  margin-bottom: -25px;
-  text-align: center;
+
+.appo-picture {
+  width: 200px;
+  height: auto;
 }
-</style>
+
+.blond-picture {
+  width: 300px;
+  height: auto;
+}
