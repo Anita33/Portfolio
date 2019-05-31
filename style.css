@@ -15,11 +15,11 @@ header h1 {
 }
 
 header {
-  background: green;
+  background: palevioletred;
 }
 
-section {
-  background: lime;
+main {
+  background:palevioletred;
   float: left;
   width: 60%;
   margin: 0;
