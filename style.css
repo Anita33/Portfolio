@@ -19,24 +19,24 @@ header {
 }
 
 main {
-  background:palevioletred;
-  float: left;
+  background:rgb(104, 7, 39);
+  float: right;
   width: 60%;
   margin: 0;
   padding: 20px;
 }
 
 aside {
-  background: yellow;
+  background: pink;
   width: 28%;
-  float: right;
+  float: left;
   overflow: auto;
   margin: 0;
 }
 
 footer {
   margin: 0;
-  background: orange;
+  background: paleturquoise;
   clear: both;
 }
 
