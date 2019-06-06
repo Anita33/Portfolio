@@ -1,8 +1,5 @@
 * {
   box-sizing: border-box;
-}
-
-* {
   margin: 0;
   padding: 0;
 }
@@ -15,7 +12,6 @@ body {
 }
 
 a {
-  font-family: "Roboto", sans-serif;
   color: #2e2c2f;
   text-decoration: none;
 }
@@ -28,6 +24,17 @@ h2 {
 
 header {
   background: #84c0c6;
+  margin: 20px;
+}
+
+.Icon-email {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.Icon-linkedin {
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 .container {
@@ -85,7 +92,8 @@ main {
   float: right;
   width: 59%;
   margin: 0;
-  padding: 20px;
+  padding: 10x;
+  overflow: auto;
 }
 
 aside {
@@ -94,26 +102,26 @@ aside {
   float: left;
   overflow: auto;
   margin: 0;
-  color: #046e8f;
+  padding: 10px:
 }
 
 footer {
-  margin: 1rem;
-  background: paleturquoise;
+  margin: 20px;
+  background: url(../img/birds.jpg);
   clear: both;
   padding: 20px;
-}
+  text-align: center;
+  margin-top: 30px;
+  }
+
 
 /*klopt nog niet*/
 footer {
-  background: url(`../img/birds.jpg`);
+  background: url(../img/birds.jpg);
 }
 
 body {
   background-color: #e2fcef;
-  color: #36393b;
-  font-size: 15px;
-  font-family: Roboto;
 }
 
 .injected-text {
@@ -121,7 +129,6 @@ body {
   text-align: center;
 }
 h1 {
-  font-family: Oxygen;
   color: #8ac6d0;
   font-weight: bold;
   font-size: 40px;
@@ -129,22 +136,23 @@ h1 {
 }
 
 h2 {
-  font-family: Roboto;
   color: #63768d;
   font-weight: normal;
   font-size: 30px;
   text-align: center;
 }
+
 .Varian-picture {
   border: 15px solid #36393b;
   width: 400px;
   height: auto;
-  background-position: center;
+  float: center;
 }
 
 .appo-picture {
   width: 300px;
   height: auto;
+  float: center;
 }
 
 .blond-picture {
@@ -152,6 +160,14 @@ h2 {
   height: auto;
   border-radius: 50%;
   float: center;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: #2e2c2f;
+  font-family: Roboto;
 }
 
 table {
@@ -163,6 +179,7 @@ table {
 
 td {
   border: 1px solid #2e2c2f;
+  padding: 10px;
 }
 
 .about-me {
@@ -173,4 +190,36 @@ td {
   width: 400px;
   height: 300px;
   position: center;
+}
+
+.projects {
+  float: left;
+}
+
+.skills {
+  float: right;
+}
+
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+#contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+#contact-form textarea {
+  height: 200px;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
 }
