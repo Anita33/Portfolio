@@ -1,7 +1,5 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 /*main Styling*/
@@ -9,11 +7,6 @@
 html,
 body {
   font-family: "Roboto", sans-serif;
-}
-
-a {
-  color: #2e2c2f;
-  text-decoration: none;
 }
 
 h1,
@@ -87,6 +80,11 @@ header h1 {
   letter-spacing: 5px;
 }
 
+a {
+  color: #2e2c2f;
+  text-decoration: none;
+}
+
 main {
   background: #0090c1;
   float: right;
@@ -115,11 +113,6 @@ footer {
   }
 
 
-/*klopt nog niet*/
-footer {
-  background: url(../img/birds.jpg);
-}
-
 body {
   background-color: #e2fcef;
 }
@@ -146,13 +139,15 @@ h2 {
   border: 15px solid #36393b;
   width: 400px;
   height: auto;
-  float: center;
+  display: block;
+  margin: auto;
 }
 
 .appo-picture {
   width: 300px;
   height: auto;
-  float: center;
+  display: block;
+  margin: auto;
 }
 
 .blond-picture {
@@ -189,7 +184,8 @@ td {
 .video-sol-cabetta {
   width: 400px;
   height: 300px;
-  position: center;
+  display: block;
+  margin: auto;
 }
 
 .projects {
