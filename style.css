@@ -11,8 +11,7 @@ body {
 
 h1,
 h2 {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 15 0;
 }
 
 header {
@@ -90,15 +89,14 @@ main {
   float: right;
   width: 59%;
   margin: 0;
-  padding: 10x;
-  overflow: auto;
+  padding: 10px;
+  max-width: 100%;
 }
 
 aside {
   background: #38aecc;
   width: 40%;
   float: left;
-  overflow: auto;
   margin: 0;
   padding: 10px;
 }
@@ -139,6 +137,7 @@ h2 {
   height: auto;
   display: block;
   margin: auto;
+  max-width: 100%;
 }
 
 .appo-picture {
@@ -146,6 +145,7 @@ h2 {
   height: auto;
   display: block;
   margin: auto;
+  max-width: 100%;
 }
 
 .blond-picture {
